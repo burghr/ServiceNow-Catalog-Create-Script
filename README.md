@@ -1,6 +1,6 @@
 # ServiceNow Catalog Item Generator
 
-A background script that programmatically creates ServiceNow Service Catalog items with form variables. Define your catalog item as a config object and run it -- no clicking through the UI.
+A background script that programmatically creates ServiceNow Service Catalog items with form variables. Define your catalog item as a config object and run it - no clicking through the UI.
 
 ## What It Does
 
@@ -68,4 +68,4 @@ The script includes a sample config that creates a request form with a user refe
 
 - The script looks up catalog, category, and workflow by name. If not found, it logs a warning and continues.
 - Variables are created in the order specified by the `order` property.
-- The script is safe to run multiple times, but it will create duplicate items -- delete the old one first if re-running.
+- The script is safe to run multiple times, but it will create duplicate items - delete the old one first if re-running.
